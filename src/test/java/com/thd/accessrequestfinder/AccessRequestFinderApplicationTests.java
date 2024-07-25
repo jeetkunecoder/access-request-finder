@@ -10,4 +10,9 @@ class AccessRequestFinderApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void printHelloWorld() {
+		System.out.println("Hello World");
+	}
+
 }

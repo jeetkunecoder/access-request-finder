@@ -41,11 +41,6 @@ jobs:
       - name: Run Tests and Build
         run: ./gradlew build
 
-      - name: Run Coverage
-        run: |
-          chmod +x gradlew
-          ./gradlew testCoverage  
-
       - name: Add coverage to PR
         id: jacoco
         uses: madrapps/jacoco-report@v1.6.1

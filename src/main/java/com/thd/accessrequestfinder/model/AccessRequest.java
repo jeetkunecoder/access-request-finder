@@ -7,8 +7,8 @@ import lombok.Data;
 @Builder
 public class AccessRequest {
 
-    String id;
-    String name;
-    String description;
+    private final String id;
+    private final String name;
+    private final String description;
 
 }

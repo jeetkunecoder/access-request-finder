@@ -10,5 +10,6 @@ public class AccessRequest {
     private final String id;
     private final String name;
     private final String description;
+    private final String teamId;
 
 }
